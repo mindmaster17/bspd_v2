@@ -5338,11 +5338,12 @@
 		(dnp no)
 		(uuid "19e902ed-0b61-4d50-99d8-6b4bd428dd03")
 		(property "Reference" "U4"
-			(at 131.826 119.38 0)
+			(at 144.78 123.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "LM393P"
