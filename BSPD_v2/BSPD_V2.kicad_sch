@@ -3507,6 +3507,12 @@
 		(uuid "78dddc29-88eb-4bdd-8eb0-99942ccffb9b")
 	)
 	(junction
+		(at 45.72 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a600453f-0663-410e-b45e-1b4229866e9f")
+	)
+	(junction
 		(at 30.48 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3614,13 +3620,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 173.99) (xy 43.18 175.26)
+			(xy 127 173.99) (xy 128.27 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21c3d80d-6a83-4b67-910b-ad5909f5ec42")
+		(uuid "2179936a-25ef-4fab-af00-e39a9ec1cda7")
 	)
 	(wire
 		(pts
@@ -3661,6 +3667,16 @@
 			(type default)
 		)
 		(uuid "2bcee12a-bdd4-4663-af61-986950d1d641")
+	)
+	(wire
+		(pts
+			(xy 45.72 175.26) (xy 45.72 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f69009a-39bc-426c-b6c0-9a660a3177cc")
 	)
 	(wire
 		(pts
@@ -5481,16 +5497,15 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Power-symbol:GND")
-		(at 43.18 173.99 180)
+		(at 127 173.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4dcce302-bc86-4e44-aed4-1051c3ea396c")
 		(property "Reference" "#PWR026"
-			(at 43.18 167.64 0)
+			(at 120.65 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5514,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 168.91 0)
+			(at 123.19 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +5522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 173.99 0)
+			(at 127 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +5531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 173.99 0)
+			(at 127 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5540,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 173.99 0)
+			(at 127 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5552,7 @@
 			(uuid "076da317-2246-46c0-9584-a3b2ef919306")
 		)
 		(instances
-			(project ""
+			(project "BSPD_v2"
 				(path "/382198d7-19bb-422e-88d5-5462e049fe29"
 					(reference "#PWR026")
 					(unit 1)
