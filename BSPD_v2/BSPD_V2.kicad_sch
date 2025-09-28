@@ -6245,7 +6245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SN74HC00N:DIP794W45P254L1969H508Q14"
+		(property "Footprint" "bspd:SN7432"
 			(at 120.65 44.45 0)
 			(effects
 				(font
@@ -8826,7 +8826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SN74HC08N:DIP794W45P254L1969H508Q14"
+		(property "Footprint" "bspd:SN7432"
 			(at 125.73 92.71 0)
 			(effects
 				(font
