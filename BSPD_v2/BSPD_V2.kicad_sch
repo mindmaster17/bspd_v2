@@ -312,6 +312,317 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EG1206_bspd:EG1206"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EG1206"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EG1206:SW_EG1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EG1206/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1206/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "EG1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "SWITCH SLIDE SPDT 200MA 30V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "EG1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "EG1206_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.921 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.921 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LM393P_bspd:LM393P"
 			(pin_names
 				(offset 1.016)
@@ -3525,6 +3836,12 @@
 		(uuid "e73eaf5c-8b70-4163-ba9e-947c8f54b27f")
 	)
 	(junction
+		(at 133.35 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f160b4fc-db6a-4e82-adc5-eda882010aca")
+	)
+	(junction
 		(at 36.83 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3620,16 +3937,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 173.99) (xy 128.27 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2179936a-25ef-4fab-af00-e39a9ec1cda7")
-	)
-	(wire
-		(pts
 			(xy 39.37 34.29) (xy 44.45 34.29)
 		)
 		(stroke
@@ -3677,6 +3984,16 @@
 			(type default)
 		)
 		(uuid "2f69009a-39bc-426c-b6c0-9a660a3177cc")
+	)
+	(wire
+		(pts
+			(xy 133.35 173.99) (xy 133.35 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301ee898-99b3-4be8-9bba-19e26afa7b45")
 	)
 	(wire
 		(pts
@@ -3870,7 +4187,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 161.29) (xy 45.72 161.29)
+			(xy 148.59 161.29) (xy 45.72 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4327,6 +4644,16 @@
 			(type default)
 		)
 		(uuid "e65f787c-38fb-44e0-9fb5-f68bd5fb9864")
+	)
+	(wire
+		(pts
+			(xy 133.35 173.99) (xy 143.51 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ac2894-404a-447c-b36d-62ff726e8d13")
 	)
 	(wire
 		(pts
@@ -5497,7 +5824,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Power-symbol:GND")
-		(at 127 173.99 270)
+		(at 133.35 173.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5505,7 +5832,7 @@
 		(dnp no)
 		(uuid "4dcce302-bc86-4e44-aed4-1051c3ea396c")
 		(property "Reference" "#PWR026"
-			(at 120.65 173.99 0)
+			(at 127 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 173.99 0)
+			(at 129.54 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 173.99 0)
+			(at 133.35 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 173.99 0)
+			(at 133.35 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 173.99 0)
+			(at 133.35 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,7 +7109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0430450827:MOLEX_0430450827"
+		(property "Footprint" "Connector_Molex:Molex_Mega-Fit_76825-0008_2x04_P5.70mm_Horizontal"
 			(at 35.56 180.34 0)
 			(effects
 				(font
@@ -7028,7 +7355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL_OneLayer:TO-92L_ECB"
 			(at 234.95 64.77 0)
 			(effects
 				(font
@@ -7685,7 +8012,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 138.43 186.69 180)
+		(at 153.67 186.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7694,7 +8021,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc160b95-19b1-4113-8a65-48cff9d74ab2")
 		(property "Reference" "#PWR025"
-			(at 138.43 182.88 0)
+			(at 153.67 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7703,7 +8030,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 138.43 191.77 0)
+			(at 153.67 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +8038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 186.69 0)
+			(at 153.67 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +8047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 186.69 0)
+			(at 153.67 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +8056,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 138.43 186.69 0)
+			(at 153.67 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +8278,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:LM2596T-5")
-		(at 135.89 173.99 270)
+		(at 151.13 173.99 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7960,7 +8287,7 @@
 		(dnp no)
 		(uuid "d730ec8f-509d-4781-aa03-8c02135f5129")
 		(property "Reference" "U6"
-			(at 146.05 173.99 0)
+			(at 161.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +8295,7 @@
 			)
 		)
 		(property "Value" "LM2596T-5"
-			(at 143.51 173.99 0)
+			(at 158.75 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,7 +8303,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_THT_AKL:TO-220F-5_P3.4x2.06mm_StaggerEven_Lead1.86mm_Vertical"
-			(at 129.54 172.72 0)
+			(at 144.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,7 +8314,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-			(at 135.89 173.99 0)
+			(at 151.13 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +8323,7 @@
 			)
 		)
 		(property "Description" "5V 3A 150kHz Step-Down Voltage Regulator, TO-220"
-			(at 135.89 173.99 0)
+			(at 151.13 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8842,6 +9169,208 @@
 			(project ""
 				(path "/382198d7-19bb-422e-88d5-5462e049fe29"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EG1206_bspd:EG1206")
+		(at 140.97 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff30c75a-4fa8-499b-a4f2-dfcf77031f66")
+		(property "Reference" "S1"
+			(at 140.97 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EG1206"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6 mm"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1206/E-Switch/view-part/?ref=eda"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1206/E-Switch/view-part/?ref=snap"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EG1206"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SWITCH SLIDE SPDT 200MA 30V"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "EG1206"
+			(at 140.97 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12c12e39-d4cf-4be4-a44d-21987db3cd3e")
+		)
+		(pin "2"
+			(uuid "4c6a69d6-ceaa-46ca-b51c-1006844176e4")
+		)
+		(pin "3"
+			(uuid "58286f69-a565-4110-a142-d8a7e0762716")
+		)
+		(instances
+			(project ""
+				(path "/382198d7-19bb-422e-88d5-5462e049fe29"
+					(reference "S1")
 					(unit 1)
 				)
 			)
