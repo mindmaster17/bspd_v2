@@ -1,0 +1,14 @@
+🧪 Test cases for manual checking
+
+Here’s a table of simple test inputs you can apply and what the output should be:
+
+TPS (V)	Brake	Expected BSPD Output
+0.2 V	OFF	OK (no trip, valid low TPS)
+0.2 V	ON	OK (no trip, TPS <10%)
+1.0 V	OFF	OK (TPS >10%, but no brake)
+1.0 V	ON	Trip after 1 s (BSPD should latch)
+4.2 V	ON	Trip after 1 s (TPS >10%, brake ON)
+5.0 V	Any	Immediate trip (out of range)
+0.0 V	Any	Immediate trip (out of range)
+TPS wire disconnected	Any	Immediate trip (<100 ms)
+Power loss	Any	Immediate trip (relay de-energizes)
