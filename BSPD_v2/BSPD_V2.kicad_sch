@@ -3788,16 +3788,16 @@
 		)
 	)
 	(junction
-		(at 29.21 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "097619ea-53d6-462e-8c28-5c1a4e35cf22")
-	)
-	(junction
 		(at 97.79 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1278c9ee-aa63-438b-8e5a-bee5c30fbb2a")
+	)
+	(junction
+		(at 30.48 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3aa4a45b-f971-4c62-83eb-e5575abf398c")
 	)
 	(junction
 		(at 161.29 82.55)
@@ -4007,16 +4007,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 138.43) (xy 29.21 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "332b0de7-451e-4629-9e18-77444ea50b56")
-	)
-	(wire
-		(pts
 			(xy 33.02 49.53) (xy 33.02 54.61)
 		)
 		(stroke
@@ -4087,7 +4077,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 170.18) (xy 30.48 175.26)
+			(xy 30.48 138.43) (xy 30.48 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4237,6 +4227,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 138.43) (xy 43.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b717ee3-c207-46ec-8f3c-d877ac6bd592")
+	)
+	(wire
+		(pts
 			(xy 95.25 130.81) (xy 95.25 36.83)
 		)
 		(stroke
@@ -4274,16 +4274,6 @@
 			(type default)
 		)
 		(uuid "8503b8a5-1ba8-4274-94e2-f9e869b8a7d8")
-	)
-	(wire
-		(pts
-			(xy 29.21 170.18) (xy 30.48 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a93e7c6-bdd9-4957-ac5b-87ea48b2792e")
 	)
 	(wire
 		(pts
@@ -4477,7 +4467,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 138.43) (xy 25.4 138.43)
+			(xy 25.4 138.43) (xy 30.48 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4637,16 +4627,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 138.43) (xy 43.18 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e65f787c-38fb-44e0-9fb5-f68bd5fb9864")
-	)
-	(wire
-		(pts
 			(xy 133.35 173.99) (xy 143.51 173.99)
 		)
 		(stroke
@@ -4717,7 +4697,7 @@
 	)
 	(global_label "BPS_sensor"
 		(shape input)
-		(at 29.21 147.32 0)
+		(at 30.48 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4727,7 +4707,7 @@
 		)
 		(uuid "0ec1e0f3-2861-48ca-b63c-53fdbebf5e44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.1413 147.32 0)
+			(at 44.4113 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM393P:DIP794W45P254L959H508Q8"
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 132.08 137.16 0)
 			(effects
 				(font
@@ -6245,7 +6225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bspd:SN7432"
+		(property "Footprint" "PCM_4ms_Package_DIP:DIP-14_W7.62mm"
 			(at 120.65 44.45 0)
 			(effects
 				(font
@@ -8826,7 +8806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bspd:SN7432"
+		(property "Footprint" "PCM_4ms_Package_DIP:DIP-14_W7.62mm"
 			(at 125.73 92.71 0)
 			(effects
 				(font
