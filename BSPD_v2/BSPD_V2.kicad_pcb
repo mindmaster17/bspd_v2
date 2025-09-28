@@ -1328,7 +1328,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 		(model "${BSPD}/0430450827.step"
@@ -1339,7 +1339,7 @@
 				(xyz 1.8 2 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -2837,6 +2837,17 @@
 			(uuid "3ae5380c-c5ba-4e52-a3ec-20f0ac202a2f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Regulator/LM2596T-5.0/LM2596T-5.0.step"
+			(offset
+				(xyz 3.5 -2 -0.5)
+			)
+			(scale
+				(xyz 1.1 1 0.6)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
 		(layer "F.Cu")

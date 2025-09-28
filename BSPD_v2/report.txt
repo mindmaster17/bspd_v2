@@ -1,0 +1,13 @@
+Warning: Width correction constrained.  The width correction value must be in the range of [0.000001 mm; 0.199999 mm] for the current design rules.
+Plotted to 'C:\Users\navad\Desktop\SUPRA\bspd_v2\BSPD_v2\Gerber\BSPD_v2-F_Cu.gbr'.
+Plotted to 'C:\Users\navad\Desktop\SUPRA\bspd_v2\BSPD_v2\Gerber\BSPD_v2-B_Cu.gbr'.
+Plotted to 'C:\Users\navad\Desktop\SUPRA\bspd_v2\BSPD_v2\Gerber\BSPD_v2-F_Paste.gbr'.
+Plotted to 'C:\Users\navad\Desktop\SUPRA\bspd_v2\BSPD_v2\Gerber\BSPD_v2-B_Paste.gbr'.
+Plotted to 'C:\Users\navad\Desktop\SUPRA\bspd_v2\BSPD_v2\Gerber\BSPD_v2-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\navad\Desktop\SUPRA\bspd_v2\BSPD_v2\Gerber\BSPD_v2-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\navad\Desktop\SUPRA\bspd_v2\BSPD_v2\Gerber\BSPD_v2-F_Mask.gbr'.
+Plotted to 'C:\Users\navad\Desktop\SUPRA\bspd_v2\BSPD_v2\Gerber\BSPD_v2-B_Mask.gbr'.
+Plotted to 'C:\Users\navad\Desktop\SUPRA\bspd_v2\BSPD_v2\Gerber\BSPD_v2-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\navad\Desktop\SUPRA\bspd_v2\BSPD_v2\Gerber\BSPD_v2-job.gbrjob'.
+Info: Done.
+Info: Done.
