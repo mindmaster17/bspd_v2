@@ -3987,6 +3987,41 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 204.47 25.4)
+		(end 262.89 40.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f57eb7e3-ad1f-4e30-85cd-a35d22af8c3e)
+	)
+	(text "BSPD_V2"
+		(exclude_from_sim no)
+		(at 195.326 173.736 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 170 71 255 0.79)
+			)
+		)
+		(uuid "aab6bfc2-9fca-417c-a7be-1d6b5a760a3c")
+	)
+	(text "TEAM PETRONARC"
+		(exclude_from_sim no)
+		(at 233.68 32.512 0)
+		(effects
+			(font
+				(face "UbuntuMono Nerd Font")
+				(size 5 5)
+				(color 94 213 255 1)
+			)
+		)
+		(uuid "d4e113bd-ff73-4b69-a0b6-f6d99dcffb0e")
+	)
 	(junction
 		(at 259.08 127)
 		(diameter 0)
